@@ -1,0 +1,98 @@
+● AUXILIO
+    ●● Usar um hgroup para separar grupos de mesma familia 
+    
+    ●● <a href="" target="_blank">  para direcionar link sem fechar o site(abre outra aba no naveador sem fechar o site) 
+    
+    ●● Ctrl + Alt + T = abre e fecha tag selecionadas (surround with)
+    
+    ●● placeholder="Nome Completo" - Dica 
+        💬(<input type="text" name="tNome" id="cNome" size="30" maxlength="30" placeholder="Nome Completo">)
+
+    ●● Dentro da imagem criada com a tag IMG do HTML5, devemos usar um parâmetro USEMAP. A tag utilizada para criar um mapa de imagem é a tag MAP no HTML5.
+
+    ●● A tag AREA do HTML5 permite que você defina o formato SHAPE e as coordenadas COORDS. Além disso, utilizaremos o TARGET para indicar o local onde o link será aberto.
+        ●●● Os SHAPE compatíveis com mapas MAP em HTML5 são RECT, CIRCLE e POLY.
+            💬<area shape="circle" coords="75,52,12" href="google-glass.html#bateria" target="janela" alt="Bateria"> (PEGAR COORD: meio, e 1 estremidade"raio")
+            💬<area shape="poly" coords="28,146,82,215,83,250,24,162" href="google-glass.html#sensores" target="janela" alt="Sensores"> (PEGAR COORD: de cada ponto)
+
+● TAGs 
+    ●● <br> = quebra de linha
+    ●● &nbsp; = espaço em branco
+    ●● <wbr> = quebra de palavra (normalmente usada em palavras grandes e com hifén "super-humano") pode ser utilizado em endereço na web depois dos pontos do endereço
+    ●● &shy; = usada para hifenizar palavras grandes quando ouver quebra de linha na página
+
+    ●● <b> Negrito
+    ●● <i> itálico 
+    ●● <em> Enfatizar a palavra (semelhante ao italico)
+    ●● <del> Palavras riscadas
+
+● Simbolos Especiais
+        &lt = menor que <
+        &le; = menor ou igual a <=
+        &gt = maior que >
+        &ge; = maior ou igual a =>
+
+        &copy; = simobolo do copyright ©
+        &reg; = marca registrada ®
+        &trade; = tm ™
+
+    ●● Operações Matemáticas
+        &permil; ‰
+        &sum; ∑
+        &infin; ∞
+        &times; ⅹ
+        &plusmn; ±
+        &oplus; ⊕
+        &radic; √
+        &ne; ≠
+
+    ●● Letras Gregas
+        &delta; δ
+        &Delta; Δ
+
+    ●● Setas
+        &larr; ←
+        &rarr; →
+        &uarr; ↑
+        &darr; ↓
+        &harr; ↔
+
+    ●● Baralho
+        &spades;♠
+        &clubs; ♣
+        &hearts; ♥
+        &diams; ♦
+
+    ●● Monetários
+        &pound; = £
+        &yen; = ¥
+        &euro; = €
+        &dollar; = $
+        &real; = ℜ
+
+● Listas ordenadas
+    ●●ol = Ordered lists - listas ordenadas
+        ●●●Tipos
+            ●●●● type="1" = Ordenado numericamente
+            ●●●● type="a" = Ordenado alfabeticamente (minusculo), para utilizar maiusculo basta trocas "a" por "A"
+            ●●●● type="i" = Ordenado por algarismos romanos (segue o mesmo sentido de type a)
+
+            ●●●●Start="(numero)" - Começa a numeração a partir do numero.
+
+    ●●Ul = unordered lists - listas não ordenadas (lista com demarcadores)
+        ●●Tipos
+           ●●●type="square" - transforma em quadrados
+           ●●●type="circle" - borda preta com fundo branco
+           ●●●type="disc" - circulos pretos(padrão)
+
+    ●●li = list items - itens de listas
+
+● Tabelas
+    ●● <tr> = table rows (linhas)
+        ●●rowspan="(numero de linha)" - expanção em linha
+    ●● <td> = table data (células) (colunas) 
+        ●●colspan="(numero de linha)" - expanção em colunas
+
+●Formulario
+    ●● Post- lento/mais seguro
+    ●● Get - rapido/menos seguro(url)

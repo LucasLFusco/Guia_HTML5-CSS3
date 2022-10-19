@@ -1,0 +1,35 @@
+● AUXILIO
+    ●● padding - espaço (dentro)entre parâmetros
+    ●● margin - espaço (fora)entre parâmetros
+    ●● display: block; - flutua pela tela
+
+    ●● position: relative - preso dentro do contêner
+        ●●● Na classe pai sempre colocar position:relative
+    ●● position: absolute - livre pelo site 
+        ●●● Na classe filho colocar position:absolute
+    
+● FONTE
+    ●●font-weight
+        ●●● normal  - fonte normal de formatação
+        ●●● bold    - negrito
+        ●●● bolder  - Mais forte que o negrito
+        ●●● 100 - 900 - pode utilizar valores para nivel de negrito
+
+    ●● font-family = tipo de fonte
+    ●● font-size   = tamanho da fonte
+
+● DECORAÇÃO
+    
+    ●●Text-dewwcoration
+        ●●● underline    - para sublinhar palavras (novo em HTML5 pois o <u> não existe mais)
+        ●●● overline     - Linha acima do texto
+        ●●● line-through - riscado (mesmo recurso do <del>, sem o resultado semântico)
+
+    ●● text-shadow = adiciona uma sombra no texto: 
+        💬(2px 4px 6px black) [2px= deslocamento lateral; 4px= deslocamento vertical ; 6px = espalhamento da sombra ; black = cor da sombra.]
+   
+● Estilo de listas
+    ●● list-style: none; (remove as figuras de listas)
+    ●● text-transform: uppercase; (Letras em Maiusculo)
+
+
