@@ -1,0 +1,144 @@
+● TAGs 
+    ●● <strong> - Negrito 
+    ●● <em> - Itálico 
+    ●● <mark> - Cria um marcador no texto
+    ●● <br> - Quebra de linha
+    ●● <del> - Texto Excluido
+    ●● <ins> - Texto Inserido (sublinhado)
+    ●● <sup> - Texto Sobrescrito (x²+3)
+    ●● <sub> - Texto Subescrito (H₂O)
+    ●● <code> - Colocar trecho de cóodigos
+        ●●● <pre> - Colocar indentação de códigos (inclue espaços)
+            📌Para Retirar os espaços utilizar Shift + TAB, Para adicionar espaços somente TAB
+   
+   ●● <abbr> - Abreviações 
+        💬 <abbr title="Hypertext Markup Language">HTML</abbr>
+
+    ●● <q> - Coloca aspas (Para Citações Simples)
+    ●● <blockquote> - Para Citações completas
+        💬<blockquote cite="(link do livro, referência)">(Texto)</blockquote>
+
+
+    ●● &nbsp; = espaço em branco
+    ●● &shy; = usada para hifenizar palavras grandes quando ouver quebra de linha na página
+    ●● <wbr> = quebra de palavra (normalmente usada em palavras grandes e com hifén "super-humano") pode ser utilizado em endereço na web depois dos pontos do endereço
+
+    ●● <bdo dir="rtl"> - Inverte o texto
+    
+● Simbolos Especiais
+        &lt = menor que < (Less than)
+        &le; = menor ou igual a <=
+        &gt = maior que > (Greater than)
+        &ge; = maior ou igual a =>
+
+        &copy; = simobolo do copyright ©
+        &reg; = Marca registrada ®
+        &trade; = Trade Mark ™
+
+    ●● Operações Matemáticas
+        &permil; ‰
+        &sum; ∑
+        &infin; ∞
+        &times; ⅹ
+        &plusmn; ±
+        &oplus; ⊕
+        &radic; √
+        &ne; ≠
+
+    ●● Letras Gregas
+        &delta; δ
+        &Delta; Δ
+
+    ●● Setas
+        &larr; ←
+        &rarr; →
+        &uarr; ↑
+        &darr; ↓
+        &harr; ↔
+
+    ●● Baralho
+        &spades;♠
+        &clubs; ♣
+        &hearts; ♥
+        &diams; ♦
+
+    ●● Monetários
+        &pound; = £
+        &yen; = ¥
+        &euro; = €
+        &dollar; = $
+        &real; = ℜ
+
+● Listas ordenadas
+    ●● <ol> = Ordered lists - listas ordenadas
+         ●●●li = list items - itens de listas
+
+            ●●●●Tipos
+                ●●●●● type="1" = Ordenado numericamente
+                ●●●●● type="a" = Ordenado alfabeticamente (minusculo), para utilizar maiusculo basta trocas "a" por "A"
+                ●●●●● type="i" = Ordenado por algarismos romanos (segue o mesmo sentido de type a)
+
+            ●●●●Start="(numero)" - Começa a numeração a partir do numero.
+
+    ●● <ul> = unordered lists - listas não ordenadas (lista com demarcadores)
+        ●●Tipos
+           ●●●type="disc" - circulos pretos(padrão)
+           ●●●type="square" - transforma em quadrados
+           ●●●type="circle" - borda preta com fundo branco
+    
+    ●● <dl> -Lista de Definições (igual dicionário)
+        ●●● <dt> - Termo
+        ●●● <dd> - Descrição
+
+● Tabelas
+    ●● <tr> = table rows (linhas)
+        ●●rowspan="(numero de linha)" - expanção em linha
+    ●● <td> = table data (células) (colunas) 
+        ●●colspan="(numero de linha)" - expanção em colunas
+
+● Formulario
+    ●● Post- lento/mais seguro
+    ●● Get - rapido/menos seguro(url)
+
+● Imagens 
+    ●● Para utilizar imagens para diversas telas (tv,not,tablet,celular)(sempre a maior em baixo e as menores em cima)
+       ●●● Abrir a tag <picture></picture>
+        ●●●● Colocar a imagem maior <img>
+            ●●●●● Colocar acima da <img> a tag <source>
+            💬📌<picture>
+                    <source media="(max-width:750px)" srcset="foto-p.png">
+                    <source media="(max-width:1000px )" srcset="foto-m.png">
+                    <img src="foto-g.png" alt="#">
+                </picture>
+
+● Video 
+    ●● <video src="#" width="500" controls poster="#"></video>
+        ●● Youtube
+        ●● HandBrake - para conversão de videos https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjXjM3K5fL6AhUjAtQKHQOkDaIQFnoECAoQAQ&url=https%3A%2F%2Fhandbrake.fr%2F&usg=AOvVaw1RtQpdPWsD7StpHZYLnCO0
+        ●● Vimeo https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwj6_bqr6vL6AhUBw5EKHQ9cDYEYABAAGgJjZQ&ohost=www.google.com&cid=CAESa-D2O__NrS3GewuhGGVP2UC_8_HJpSqtX8Y-EtkeyXsW5UJAW7fI9aeblxEwub6NJcZf7fhkz-PPzQ6MBJ2Bs96KDC58thpw3lUsVSzEHqzN0HVPkko_YWIw8a_6DFP8AUv_1QOWlpGPUTZE&sig=AOD64_2lH4_wUzvwI88mMo7zhVv1GuiOxA&q&adurl&ved=2ahUKEwiD3bSr6vL6AhXVCbkGHcJPD3YQ0Qx6BAgJEAE
+
+● Audio
+    ●● <audio src="#" controls></audio>
+    ●● <audio>
+        <source src="#" type="audio/mpeg"
+        </audio>
+
+● Auxilio
+    ●● Usar um hgroup para separar grupos de mesma familia 
+    
+    ●● <a href="" target="_blank">  para direcionar link sem fechar o site(abre outra aba no naveador sem fechar o site) 
+    
+    ●● Ctrl + Alt + T = abre e fecha tag no texto selecionado (surround with) ou Ctrl + Shift + P
+    
+    ●● placeholder="Nome Completo" - Dica 
+        💬(<input type="text" name="tNome" id="cNome" size="30" maxlength="30" placeholder="Nome Completo">)
+
+    ●● Dentro da imagem criada com a tag IMG do HTML5, devemos usar um parâmetro USEMAP. A tag utilizada para criar um mapa de imagem é a tag MAP no HTML5.
+
+    ●● A tag AREA do HTML5 permite que você defina o formato SHAPE e as coordenadas COORDS. Além disso, a tag TARGET para indicar o local onde o link será aberto.
+        ●●● Os SHAPE compatíveis com mapas MAP em HTML5 são RECT, CIRCLE e POLY.
+            💬<area shape="circle" coords="75,52,12" href="google-glass.html#bateria" target="janela" alt="Bateria"> (PEGAR COORD: meio, e 1 estremidade "raio")
+            💬<area shape="poly" coords="28,146,82,215,83,250,24,162" href="google-glass.html#sensores" target="janela" alt="Sensores"> (PEGAR COORD: de cada ponto)
+    
+● Link para Download
+        ●●● <a href="(link)" Download="(nome do arquivo)" type="(https://www.iana.org/assignments/media-types/media-types.xhtml)"
