@@ -7,7 +7,26 @@
         ●●● Na classe pai sempre colocar position:relative
     ●● position: absolute - livre pelo site 
         ●●● Na classe filho colocar position:absolute
+ 
+● Cores 
+    ●●  background-image: linear-gradient -- gera um gradiente linear angular(ângulo, cor1, cor2, ...)
+    ●●  background-image: radial-gradient -- gera um gradiente circular angular(circle, cor1, cor2, ...)
+
+● DECORAÇÃO
     
+    ●●Text-decoration
+        ●●● underline    - para sublinhar palavras (novo em HTML5 pois o <u> não existe mais)
+        ●●● overline     - Linha acima do texto
+        ●●● line-through - riscado (mesmo recurso do <del>, sem o resultado semântico)
+
+    ●● text-shadow = adiciona uma sombra no texto: 
+        ●●● 1 parâmetro - o quanto a sombra vai para o lado/ 2 parâmetro - o quanto a sombra vai para baixo/ 3 parâmetro - o quanto a sombra vai espalhar/ 4 parâmetro - cor e transparência 
+        💬(2px 4px 6px black) [2px= deslocamento lateral; 4px= deslocamento vertical ; 6px = espalhamento da sombra ; black = cor da sombra.]
+  
+● Estilo de listas
+    ●● list-style: none; (remove as figuras de listas)
+    ●● text-transform: uppercase; (Letras em Maiusculo)
+
 ● FONTE
     ●●font-weight
         ●●● normal  - fonte normal de formatação
@@ -17,19 +36,4 @@
 
     ●● font-family = tipo de fonte
     ●● font-size   = tamanho da fonte
-
-● DECORAÇÃO
-    
-    ●●Text-dewwcoration
-        ●●● underline    - para sublinhar palavras (novo em HTML5 pois o <u> não existe mais)
-        ●●● overline     - Linha acima do texto
-        ●●● line-through - riscado (mesmo recurso do <del>, sem o resultado semântico)
-
-    ●● text-shadow = adiciona uma sombra no texto: 
-        💬(2px 4px 6px black) [2px= deslocamento lateral; 4px= deslocamento vertical ; 6px = espalhamento da sombra ; black = cor da sombra.]
-   
-● Estilo de listas
-    ●● list-style: none; (remove as figuras de listas)
-    ●● text-transform: uppercase; (Letras em Maiusculo)
-
 
