@@ -8,7 +8,7 @@
     ●● position: absolute - livre pelo site 
         ●●● Na classe filho colocar position:absolute
  
-● Cores 
+● CORES 
     ●●  background-image: linear-gradient -- gera um gradiente linear angular(ângulo, cor1, cor2, ...)
     ●●  background-image: radial-gradient -- gera um gradiente circular angular(circle, cor1, cor2, ...)
 
@@ -35,5 +35,11 @@
         ●●● 100 - 900 - pode utilizar valores para nivel de negrito
 
     ●● font-family = tipo de fonte
+        ●●●Medidas Absolutas - cm, mm, in(polegada), px, pt, pc
+        ●●●Medidas Relativas - em, ex, rem, vw, vh, %
+            ●●●● O valor padrão é 16px = 1em
+            ❗❗ Sempre recomendado utilizar o 'em' ou 'px' !
     ●● font-size   = tamanho da fonte
 
+● TIPOGRAFIA
+    ●●
