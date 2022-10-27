@@ -1,13 +1,69 @@
 ● AUXILIO
-    ●● padding - espaço (dentro)entre parâmetros
-    ●● margin - espaço (fora)entre parâmetros
-    ●● display: block; - flutua pela tela
+    ●● height - Altura
+    ●● width - Largura
+    ●● Border - linha que circula um conteúdo
+        ●●● border: [width][style][color]
+            ●●●● border: 10px solid green
+    ●● padding - espaço (dentro)entre parâmetros [Espaço interno]
+        ●●● padding: [top][right][bottom][left]
+            ●●●● padding: 10px 5px 12px 2px
+    ●● outline - contorno / traçado
+        ●●● outline: [width][style][color]
+            ●●●● outline: 10px solid blue 
+    ●● margin - espaço (fora)entre parâmetros [Espaço externo]
+        ●●● margin: [top][right][bottom][left]
+            ●●●● margin: 10px 5px 12px 2px
+    ●● display: block; - flutua pela tela 
+        inline-block - Mesma linha
 
     ●● position: relative - preso dentro do contêner
         ●●● Na classe pai sempre colocar position:relative
     ●● position: absolute - livre pelo site 
         ●●● Na classe filho colocar position:absolute
- 
+    
+    ●● Símbolo > em um seletor, indica os filhos (children) imediatos de um elemento.
+        💬 div > p {}
+
+    ●● Pseudo-classes 
+        ●●● :hover, :visited, :active, :checked, :empty e :focus.
+            ●●●● :hover -> Passar o mouse em cima
+            ●●●● :visited -> Links visitados 
+            ●●●● :active -> É usado para selecionar e estilizar o link ativo. :active DEVE vir depois de :hover
+            ●●●● :checked -> Corresponde a cada elemento <input> marcado (somente para botões de opção e caixas de seleção) e elemento <option>.
+            ●●●● :empty ->  corresponde a todos os elementos que não possuem filhos
+            ●●●● :focus ->  É usado para selecionar o elemento que tem foco.
+    ●● Pseudo-elementos
+        ●●● ::before, ::after, ::first-letter, ::first-line.
+            ●●●● ::before -> insere algo ANTES do conteúdo de cada elemento 💬content: '#';
+            ●●●● ::after -> insere algo DEPOIS do conteúdo de cada elemento 💬content: '#';
+            ●●●● ::first-letter -> Adiciona um estilo à primeira letra do seletor especificado.
+            ●●●● ::first-line -> Adiciona um estilo à primeira linha do seletor especificado.
+
+● CAIXAS - BOX MODEL
+    ●● box-level -> Sempre inicia uma linha nova, sempre ocupa a Largura total do navegador[100vw] , ao termino ele quebra linha.  (isolado/idepêndente)
+        ●●● <div>
+        ●●● <h1> - <h6>
+        ●●● <p>
+        ●●● <main>
+        ●●● <header>
+        ●●● <nav>
+        ●●● <article>
+        ●●● <aside>
+        ●●● <footer>
+        ●●● <form>
+        ●●● <video>
+    ●● inline-level -> Não quebra a linha, não ocupa a largura total do navegador(ocupa o tamanho que precisa), continua o conteúdo na mesma linha.
+        ●●● <span>
+        ●●● <a>
+        ●●● <code>
+        ●●● <small>
+        ●●● <strong>
+        ●●● <sup> - <sub>
+        ●●● <label>
+        ●●● <button>
+        ●●● <input>
+        ●●● <select>
+      
 ● CORES 
     ●●  background-image: linear-gradient -- gera um gradiente linear angular(ângulo, cor1, cor2, ...)
     ●●  background-image: radial-gradient -- gera um gradiente circular angular(circle, cor1, cor2, ...)
@@ -22,12 +78,16 @@
     ●● text-shadow = adiciona uma sombra no texto: 
         ●●● 1 parâmetro - o quanto a sombra vai para o lado/ 2 parâmetro - o quanto a sombra vai para baixo/ 3 parâmetro - o quanto a sombra vai espalhar/ 4 parâmetro - cor e transparência 
         💬(2px 4px 6px black) [2px= deslocamento lateral; 4px= deslocamento vertical ; 6px = espalhamento da sombra ; black = cor da sombra.]
+    
+    ●● text-indent: 30px (Para identação [parágrafo na primeira linha])
+
+    ●● text-align: center (Para alinhamento do texto na página [justify] [right] [left] [center])
   
 ● Estilo de listas
     ●● list-style: none; (remove as figuras de listas)
     ●● text-transform: uppercase; (Letras em Maiusculo)
 
-● FONTE
+● FONTES
     ●●font-weight
         ●●● normal  - fonte normal de formatação
         ●●● bold    - negrito
@@ -35,11 +95,16 @@
         ●●● 100 - 900 - pode utilizar valores para nivel de negrito
 
     ●● font-family = tipo de fonte
-        ●●●Medidas Absolutas - cm, mm, in(polegada), px, pt, pc
-        ●●●Medidas Relativas - em, ex, rem, vw, vh, %
+        ●●● Medidas Absolutas - cm, mm, in(polegada), px, pt, pc
+        ●●● Medidas Relativas - em, ex, rem, vw, vh, %
             ●●●● O valor padrão é 16px = 1em
             ❗❗ Sempre recomendado utilizar o 'em' ou 'px' !
     ●● font-size   = tamanho da fonte
 
-● TIPOGRAFIA
-    ●●
+    💬 font-family: 'Work Sans', sans-serif;
+        font-weight: bolder;
+        font-size: 3em;
+        font-style: italic;
+    ❗❗ SHORTHAND FONT ⬆⬆⬆
+        ●●● font-style -> font-weight -> font-size -> font-family
+        💬 font: italic bolder 3em 'Work Sans', sans-serif;
