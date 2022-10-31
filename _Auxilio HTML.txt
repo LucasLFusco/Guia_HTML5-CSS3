@@ -5,6 +5,8 @@
         </audio>
 
 ● Auxilio
+    ●● Para comentar utilizar [ctlr]+[;]
+
     ●● Usar um hgroup para separar grupos de mesma familia 
     
     ●● <a href="" target="_blank">  para direcionar link sem fechar o site(abre outra aba no naveador sem fechar o site) 
@@ -40,6 +42,7 @@
         ●●● <a href="(link)" Download="(nome do arquivo)" type="(https://www.iana.org/assignments/media-types/media-types.xhtml)"  
 
 ● Listas ordenadas
+	💬 ol>li*4[tab] - Cria uma lista ordenada com 4 linhas
     ●● <ol> = Ordered lists - listas ordenadas
          ●●●li = list items - itens de listas
 
