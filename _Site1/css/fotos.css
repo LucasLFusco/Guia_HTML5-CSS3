@@ -13,10 +13,10 @@ ul#album-fotos li{
     border: 5px solid white;
     background-color: white;
     box-shadow: 1px 1px 4px rgba(0,0,0,.4);
-    -webkit-transition: all .4s ease-in;
+    transition: all .4s ease-in;
 }
 ul#album-fotos li:hover{
-    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
 }
 
 
