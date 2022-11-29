@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+/* font-family: 'Passion One', cursive; */
+/* font-family: 'Sriracha', cursive; */
+:root{
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    background-color: darkgray;
+    min-height: 100vh;
+    font-family: var(--fonte1);
+}
+
+/* CABEÇALHO */
+header, footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header h1{
+    padding-top: 50px;
+    text-transform: uppercase;
+    font-family: var(--fonte2);
+    font-size: 3em;
+}
+header p{
+    padding-bottom: 50px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+
+/* CORPO */
+section{
+    line-height: 2em;
+    padding: 10vh 30px;
+    font-family: var(--fonte3);
+    font-size: 1.5em;
+}
+section p{
+    padding-bottom: 2em;
+}
+
+/* CLASSE NORMAL - SEM IMAGEM */
+section.normal{
+    background-color: white;
+    color: black;
+}
+
+
+/* CLASSE NORMAL - COM IMAGEM */
+section.imagem{
+    background-color: black;
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.466);
+    background-attachment: fixed;
+}
+section.imagem p{
+    background-color: rgba(0, 0, 0, 0.712);
+    /* width: 400px; */
+    display: inline-block;
+    padding: 5px;
+    text-shadow: 1px 2px 0px black;
+}
+
+/* PARALAX */
+section#img01{
+    background-image: url('imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover;
+}
+section#img02{
+    background-image: url('imagens/background002.jpg');
+    background-position: right center;
+    background-size: cover;
+}
+
+
+/* RODAPÉ */
+footer{
+    padding: 10px;
+}
