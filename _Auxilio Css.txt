@@ -16,10 +16,20 @@
     ●● display: block; - flutua pela tela 
         inline-block - Mesma linha
 
-    ●● position: relative - preso dentro do contêner
+    ●● position: relative - preso dentro do contêiner
         ●●● Na classe pai sempre colocar position:relative
     ●● position: absolute - livre pelo site 
         ●●● Na classe filho colocar position:absolute
+    
+    ●● justify-content:#; - Alinhamento na Horizontal do contêiner
+        💬center|end|start|space-around|space-evenly
+    
+    ●● align-items:#; Alinhamento na Vertical do contêiner
+        💬center|end
+
+    ●● gap: #px; Espaçamento (semelhante a margem)
+
+    ●● flex-wrap: wrap; (responsividade)
     
     ●● Símbolo > em um seletor, indica os filhos (children) imediatos de um elemento.
         💬 div > p {}
@@ -38,6 +48,13 @@
             ●●●● ::after -> insere algo DEPOIS do conteúdo de cada elemento 💬content: '#';
             ●●●● ::first-letter -> Adiciona um estilo à primeira letra do seletor especificado.
             ●●●● ::first-line -> Adiciona um estilo à primeira linha do seletor especificado.
+
+● Background
+    ●● SHORTHAND
+        ●●● Color > image > position > repeat > [size] > attachment (vinculo)
+        ❗[size] - apesar de estar certo, ainda os navegadores não estão aceitando.
+        💬background: black url('x') center center no-repeat fixed;  
+        background-size: cover;
 
 ● CAIXAS - BOX MODEL
     ●● box-level -> Sempre inicia uma linha nova, sempre ocupa a Largura total do navegador[100vw] , ao termino ele quebra linha.  (isolado/idepêndente)
