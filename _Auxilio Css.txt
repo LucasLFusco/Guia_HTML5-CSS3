@@ -105,6 +105,10 @@
     ●● text-transform: uppercase; (Letras em Maiusculo)
 
 ● FONTES
+    ●● font-size   = tamanho da fonte (pode utilizar - 4vw)
+    ●● font-variant   = Fonte em maiusculo(acessivel,não tão expressivo quanto o transform)
+    ●● line-height: 2em; (Espaçamento entre as linhas de um texto)
+    
     ●●font-weight
         ●●● normal  - fonte normal de formatação
         ●●● bold    - negrito
@@ -116,12 +120,11 @@
         ●●● Medidas Relativas - em, ex, rem, vw, vh, %
             ●●●● O valor padrão é 16px = 1em
             ❗❗ Sempre recomendado utilizar o 'em' ou 'px' !
-    ●● font-size   = tamanho da fonte
-
+    
     💬 font-family: 'Work Sans', sans-serif;
-        font-weight: bolder;
-        font-size: 3em;
-        font-style: italic;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
     ❗❗ SHORTHAND FONT ⬆⬆⬆
-        ●●● font-style -> font-weight -> font-size -> font-family
-        💬 font: italic bolder 3em 'Work Sans', sans-serif;
+            ●●● font-style -> font-weight -> font-size -> font-family
+            💬 font: italic bolder 3em 'Work Sans', sans-serif;
