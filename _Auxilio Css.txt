@@ -100,9 +100,14 @@
 
     ●● text-align: center (Para alinhamento do texto na página [justify] [right] [left] [center])
   
-● Estilo de listas
+● ESTILO DE LISTAS
     ●● list-style: none; (remove as figuras de listas)
     ●● text-transform: uppercase; (Letras em Maiusculo)
+
+● EFEITO ZEBRADO (TABELA)
+    ●● Para fazer o efeito zebrado na tabela colocar
+        ●●● tbody > tr:nth-child(odd) [impar]/[2m-1]
+        ●●● tbody > tr:nth-child(even) [par]/[2n]
 
 ● FONTES
     ●● font-size   = tamanho da fonte (pode utilizar - 4vw)

@@ -108,10 +108,38 @@
         &real; = ℜ
 
 ● Tabelas
-    ●● <tr> = table rows (linhas)
-        ●●rowspan="(numero de linha)" - expanção em linha
-    ●● <td> = table data (células) (colunas) 
-        ●●colspan="(numero de linha)" - expanção em colunas
+    ●● Hierarquia de Tabelas (simples)
+        ●●● Table = Tabela
+            TABLE ROW = linha de Tabela
+                TABLE HEADER = cabeçalho de Tabela
+                TABLE DATA = dado de Tabela
+                💬📌<table>
+                        <tr>
+                            <td></td>
+                        </tr>
+                    </table>
+    ●● Anatomia para Tabelas grandes
+        💬📌 <table>
+                <capition></capition>
+                <thead> TR, TD, TH </thead>
+                <tbody> TR, TD, TH </tbody>
+                <tfoot> TR, TD, TH </tfoot>
+               </table>
+        ●●● <tr> = table rows (linhas)
+            ●●●●rowspan="(numero de linha)" - expanção em linha
+        ●●● <th> = Titulo da Tabela
+        ●●● <td> = Dado da tabela(células) (colunas) 
+            ●●●●colspan="(numero de linha)" - expanção em colunas
+        
+        💬Para editar no CSS colocar "border-collapse: collapse" (fica com o formato de tabela, sem espaço entre dados)
+        💬Para fixar o titulo colocar no CSS
+            table{position:relative;}
+            thead > tr >th{
+                position:sticky;
+                top:0 [ou -1px se ficar com sobra]
+                background-color: #000000
+            }
+        
 
 ● TAGs 
     ●● <strong> - Negrito 
