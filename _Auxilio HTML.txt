@@ -136,8 +136,8 @@
             table{position:relative;}
             thead > tr >th{
                 position:sticky;
-                top:0 [ou -1px se ficar com sobra]
-                background-color: #000000
+                top:-1px;
+                background-color: gray;
             }
         
 
