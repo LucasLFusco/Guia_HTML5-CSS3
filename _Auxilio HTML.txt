@@ -38,6 +38,13 @@
                     <img src="foto-g.png" alt="#">
                 </picture>
 
+● IFRAME
+    ●● <iframe src="#" name="#" sandobox="(sandobox - Maior segurança, bloqueia tudo/ allow-##### - permite algumas propriedades) referrerpolicy="no-referrer" "
+    💬📌Pode incorporar 
+        ●●● Videos - Youtube , Viemo etc..
+        ●●● Mapas - Google, Waze etc...
+        ●●● Documentos do google - PowerPoint, exel, docs etc...
+
 ● Link para Download
         ●●● <a href="(link)" Download="(nome do arquivo)" type="(https://www.iana.org/assignments/media-types/media-types.xhtml)"  
 
@@ -138,8 +145,7 @@
                 position:sticky;
                 top:-1px;
                 background-color: gray;
-            }
-        
+            }       
 
 ● TAGs 
     ●● <strong> - Negrito 
@@ -161,11 +167,9 @@
     ●● <blockquote> - Para Citações completas
         💬<blockquote cite="(link do livro, referência)">(Texto)</blockquote>
 
-
     ●● &nbsp; = espaço em branco
     ●● &shy; = usada para hifenizar palavras grandes quando ouver quebra de linha na página
     ●● <wbr> = quebra de palavra (normalmente usada em palavras grandes e com hifén "super-humano") pode ser utilizado em endereço na web depois dos pontos do endereço
-
     ●● <bdo dir="rtl"> - Inverte o texto
     
 ● Video 
