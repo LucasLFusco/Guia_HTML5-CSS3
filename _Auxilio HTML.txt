@@ -1,10 +1,10 @@
-● Audio
+● AUDIO
     ●● <audio src="#" controls></audio>
     ●● <audio>
         <source src="#" type="audio/mpeg"
         </audio>
 
-● Auxilio
+● AUXILIO
     ●● Para comentar utilizar [ctlr]+[;]
 
     ●● Usar um hgroup para separar grupos de mesma familia 
@@ -23,11 +23,35 @@
             💬<area shape="circle" coords="75,52,12" href="google-glass.html#bateria" target="janela" alt="Bateria"> (PEGAR COORD: meio, e 1 estremidade "raio")
             💬<area shape="poly" coords="28,146,82,215,83,250,24,162" href="google-glass.html#sensores" target="janela" alt="Sensores"> (PEGAR COORD: de cada ponto)
 
-● Formulario
-    ●● Post- lento/mais seguro
-    ●● Get - rapido/menos seguro(url)
+● FORMULÁRIO
+    ●● Começar com <form action="(programa para cadastrar/email de recebimento)"></form>
+        💬Para tirar o autocomplete ↪ autocomplete="off"
+        ●● Post ↪ mais seguro
+        ●● Get ↪ menos seguro(os dados aparecem na url)
+        ●● Criptografia e maior segurança saber mais sobre HTTPS!!
+            ●●● Para vincular o texto com o controle de caixa de texto, colocar ↪ <label for"(id)"></label>
+            
+            ●●● Caixas de texto ↪ <input type="texto" name="" id="">
+            ●●● Senhas ↪ <input type="password" name="senha" id="senha">
+            ●●● Numeros ↪ <input type="number" name="numero" id="numero" min="0" max="x">
+            ●●● Data ↪ <input type="date" name="data" id="data">
+            ●●● Hora ↪ <input type="time" name="hora" id="hora">
+                ●●●● required ↪ requerido
+                ●●●● size="x" ↪ Tamanho da caixa de texto
+                ●●●● minlength="9"/max ↪ Precisa de 9 caracteres para prosseguir
+                ●●●● placeholder="x" ↪ Dica para o usuário
+                ●●●● value="x" ↪ Valor ja preenchido (Ele anula o placeholder)
+                ●●●● autocomplete="x" ↪ Autocompleta com os dados do usuários
+                ●●●● min="0" ↪ Começa em 0 
+                ●●●● max="x" ↪ Maximo de X número
+                ●●●● step="0.1" ↪ De quanto o numero ira subir (Utilizar no campo de numeros)
 
-● Imagens 
+                    📌Botões
+                    ●●●●● Enviar ↪ <input type="submit" value="Enviar">
+                    ●●●●● Limpar ↪ <input type="reset" value="Limpar">
+           
+
+● IMAGENS 
     ●● Para utilizar imagens para diversas telas (tv,not,tablet,celular)(sempre a maior em baixo e as menores em cima)
        ●●● Abrir a tag <picture></picture>
         ●●●● Colocar a imagem maior <img>
@@ -45,10 +69,10 @@
         ●●● Mapas - Google, Waze etc...
         ●●● Documentos do google - PowerPoint, exel, docs etc...
 
-● Link para Download
+● LINKS PARA DOWNLOAD
         ●●● <a href="(link)" Download="(nome do arquivo)" type="(https://www.iana.org/assignments/media-types/media-types.xhtml)"  
 
-● Listas ordenadas
+● LISTAS ORDENADAS
 	💬 ol>li*4[tab] - Cria uma lista ordenada com 4 linhas
     ●● <ol> = Ordered lists - listas ordenadas
          ●●●li = list items - itens de listas
@@ -70,7 +94,7 @@
         ●●● <dt> - Termo
         ●●● <dd> - Descrição
 
-● Simbolos Especiais
+● SIMBOLOS ESPECIAIS
         &lt = menor que < (Less than)
         &le; = menor ou igual a <=
         &gt = maior que > (Greater than)
@@ -114,7 +138,7 @@
         &dollar; = $
         &real; = ℜ
 
-● Tabelas
+● TABELAS
     ●● Hierarquia de Tabelas (simples)
         ●●● Table = Tabela
             TABLE ROW = linha de Tabela
@@ -172,7 +196,7 @@
     ●● <wbr> = quebra de palavra (normalmente usada em palavras grandes e com hifén "super-humano") pode ser utilizado em endereço na web depois dos pontos do endereço
     ●● <bdo dir="rtl"> - Inverte o texto
     
-● Video 
+● VIDEO 
     ●● <video src="#" width="500" controls poster="#"></video>
         ●● Youtube
         ●● HandBrake - para conversão de videos https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjXjM3K5fL6AhUjAtQKHQOkDaIQFnoECAoQAQ&url=https%3A%2F%2Fhandbrake.fr%2F&usg=AOvVaw1RtQpdPWsD7StpHZYLnCO0
