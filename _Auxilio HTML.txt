@@ -25,30 +25,44 @@
 
 ● FORMULÁRIO
     ●● Começar com <form action="(programa para cadastrar/email de recebimento)"></form>
+    ●● Fieldset ↪ Agrupamento de campos
+    ●● legend ↪ Legenda dos campos
         💬Para tirar o autocomplete ↪ autocomplete="off"
         ●● Post ↪ mais seguro
         ●● Get ↪ menos seguro(os dados aparecem na url)
         ●● Criptografia e maior segurança saber mais sobre HTTPS!!
-            ●●● Para vincular o texto com o controle de caixa de texto, colocar ↪ <label for"(id)"></label>
             
+            ●●● Para vincular o texto com o controle de caixa de texto, colocar ↪ <label for"(id)"></label>
             ●●● Caixas de texto ↪ <input type="texto" name="" id="">
             ●●● Senhas ↪ <input type="password" name="senha" id="senha">
             ●●● Numeros ↪ <input type="number" name="numero" id="numero" min="0" max="x">
             ●●● Data ↪ <input type="date" name="data" id="data">
             ●●● Hora ↪ <input type="time" name="hora" id="hora">
-                ●●●● required ↪ requerido
-                ●●●● size="x" ↪ Tamanho da caixa de texto
-                ●●●● minlength="9"/max ↪ Precisa de 9 caracteres para prosseguir
-                ●●●● placeholder="x" ↪ Dica para o usuário
-                ●●●● value="x" ↪ Valor ja preenchido (Ele anula o placeholder)
-                ●●●● autocomplete="x" ↪ Autocompleta com os dados do usuários
-                ●●●● min="0" ↪ Começa em 0 
-                ●●●● max="x" ↪ Maximo de X número
-                ●●●● step="0.1" ↪ De quanto o numero ira subir (Utilizar no campo de numeros)
+            ●●● Marcador Simples ↪ <input type="checkbox" name="x" id="x">
+            ●●● Marcador Unico ↪ <input type="radio" name="(Usar o mesmo name para as opções)" id="x">
+            ●●● Nivel ↪ <input type="range" name="nivel" id="nivel" (min="1" max="5")>
+            ●●● Escolher Arquivo ↪ <input type="file" name="foto" id="foto">
+            ●●● Mensagem ↪ <textarea name="msg" id="msg" cols="30" rows="30"></textarea>
+            ●●● Estado ↪ abrir a tag <select name="estado" id="estado"> ⬇⬇ </select>
+                📌 <optgroup label="Regiao Sudeste">
+                   <option value="SP" selected>São Paulo</option>
+                   <option value="MG">Minas Gerais</option>
+                   </optgroup>
 
-                    📌Botões
-                    ●●●●● Enviar ↪ <input type="submit" value="Enviar">
-                    ●●●●● Limpar ↪ <input type="reset" value="Limpar">
+            ●●●● required ↪ requerido
+            ●●●● checked ↪ marcado
+            ●●●● placeholder="x" ↪ Dica para o usuário
+            ●●●● autocomplete="x" ↪ Autocompleta com os dados do usuários
+            ●●●● size="x" ↪ Tamanho da caixa de texto
+            ●●●● value="x" ↪ Valor ja preenchido (Ele anula o placeholder)
+            ●●●● max/minlength="9" ↪ Precisa de 9 caracteres para prosseguir
+            ●●●● min="0" ↪ Começa em 0 
+            ●●●● max="x" ↪ Maximo de X número
+            ●●●● step="0.1" ↪ De quanto o numero ira subir (Utilizar no campo de numeros)
+
+            📌Botões
+            ●●●●● Enviar ↪ <input type="submit" value="Enviar">
+            ●●●●● Limpar ↪ <input type="reset" value="Limpar">
            
 
 ● IMAGENS 
