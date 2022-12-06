@@ -20,6 +20,10 @@
         ●●● Na classe pai sempre colocar position:relative
     ●● position: absolute - livre pelo site 
         ●●● Na classe filho colocar position:absolute
+        💬  position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
     
     ●● justify-content:#; - Alinhamento na Horizontal do contêiner
         💬center|end|start|space-around|space-evenly
