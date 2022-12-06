@@ -86,7 +86,6 @@
     ●●  background-image: radial-gradient -- gera um gradiente circular angular(circle, cor1, cor2, ...)
 
 ● DECORAÇÃO
-    
     ●●Text-decoration
         ●●● underline    - para sublinhar palavras (novo em HTML5 pois o <u> não existe mais)
         ●●● overline     - Linha acima do texto
@@ -127,9 +126,23 @@
             ❗❗ Sempre recomendado utilizar o 'em' ou 'px' !
     
     💬 font-family: 'Work Sans', sans-serif;
-            font-weight: bolder;
-            font-size: 3em;
-            font-style: italic;
+        font-weight: bolder;
+        font-size: 3em;
+        font-style: italic;
     ❗❗ SHORTHAND FONT ⬆⬆⬆
             ●●● font-style -> font-weight -> font-size -> font-family
             💬 font: italic bolder 3em 'Work Sans', sans-serif;
+
+● MEDIA QUERY
+    ●● Media Query = Media Type (tipo de midia) + Midia Feature (caracteristica de midia)
+        ●●● Media type [screen, print, speech(Sintetizadores de fala), all] não são uzadas entre (), media feature são utilizadas entre (*orientation: portrait[retrato]* *orientation: landscape[paisagem]*) isoladamente.
+
+    📌Para importar dentro do CSS
+        @media screen and (*media feature [portrait/landscape]*){}
+
+    ●● Typical Device Breakpoints
+        ●●● Pequenas telas (relógio, etc...): Até 600px
+        ●●● Celular: 600px até 768px 
+        ●●● Tablet: 768px até 992px
+        ●●● Desktop: 992px até 1200px
+        ●●● Grandes Telas (TV, slides etc...): acima de 1200px 
